@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0badae0-10a6-4e5b-bc60-229300bbd230" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/env-example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/dev/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/dev/entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nginx/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nginx/reverse-proxy.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toolbox.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CX82wX09FJVc7HxWy38WvgF0HS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-20.04/home/nesx/rails/dahora/dahora/config&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\home\nesx\rails\dahora\dahora\config" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\nesx\rails\dahora\dahora" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\home\nesx\rails\dahora" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\nesx\rails\dahora\docker" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\nesx\rails\dahora\config" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\nesx\rails\dahora\toolbox" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0badae0-10a6-4e5b-bc60-229300bbd230" name="Changes" comment="" />
+      <created>1658937365432</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658937365432</updated>
+      <workItem from="1658937366535" duration="538000" />
+      <workItem from="1658937916619" duration="13757000" />
+      <workItem from="1659032361144" duration="7062000" />
+      <workItem from="1659104426622" duration="1669000" />
+      <workItem from="1660165598754" duration="4586000" />
+      <workItem from="1660251205246" duration="11439000" />
+      <workItem from="1660332818202" duration="1189000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

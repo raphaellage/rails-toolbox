@@ -1,0 +1,6 @@
+.git
+.dockerignore
+dahora/.env
+dahora/node_modules/
+dahora/vendor/bundle/
+dahora/tmp/

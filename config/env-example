@@ -1,0 +1,5 @@
+DB_HOST=localhost
+DB_DATABASE=dahora
+DB_PORT=33061
+DB_USERNAME=dahora_user
+DB_PASSWORD=password
