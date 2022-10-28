@@ -1,0 +1,63 @@
+version: "3"
+
+services:
+  db:
+    image: "mysql:5.7"
+    container_name: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_DATABASE: ${DB_DATABASE_DEV}
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      DB_DATABASE_TEST: ${DB_DATABASE_TEST}
+    ports:
+      - '3306:3306'
+    volumes:
+      - './docker/mysql/init.sql:/docker-entrypoint-initdb.d/init.sql'
+      - 'database:/var/lib/mysqld'
+    networks:
+      - rails
+
+  api:
+    container_name: api
+    command: rails server -b "0.0.0.0"
+    volumes:
+      - '.:/opt/app'
+    environment:
+      DB_HOST: ${DB_HOST}
+      DB_DATABASE_DEV: ${DB_DATABASE_DEV}
+      DB_DATABASE_TEST: ${DB_DATABASE_TEST}
+      DB_PORT: ${DB_PORT}
+      DB_USERNAME: ${DB_USERNAME}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_SOCKET: ${DB_SOCKET}
+    build:
+      context: .
+      dockerfile: docker/dev/Dockerfile
+      args:
+        INSTALL_PATH: /opt/app
+    depends_on:
+      - db
+    networks:
+      - rails
+
+  nginx:
+    container_name: nginx
+    build:
+      context: .
+      dockerfile: docker/nginx/Dockerfile
+    ports:
+      - '8020:8020'
+    depends_on:
+      - api
+    networks:
+      - rails
+
+networks:
+  rails:
+    driver: bridge
+
+volumes:
+  database:
+    driver: local

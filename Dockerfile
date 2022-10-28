@@ -9,6 +9,7 @@ ARG RAILS_VERSION
 RUN mkdir -p $INSTALL_PATH
 RUN gem install bundler
 RUN gem install rails -v ${RAILS_VERSION}
+RUN gem install dotenv net-smtp
 
 WORKDIR $INSTALL_PATH
 

@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0badae0-10a6-4e5b-bc60-229300bbd230" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/env-example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/dev/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/dev/entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/nginx/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/nginx/reverse-proxy.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toolbox.sh" afterDir="false" />
-    </list>
+    <list default="true" id="d0badae0-10a6-4e5b-bc60-229300bbd230" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,8 +38,8 @@
       <recent name="\\wsl$\Ubuntu-20.04\home\nesx\rails\dahora\dahora" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="\\wsl$\Ubuntu-20.04\home\nesx\rails\dahora" />
       <recent name="\\wsl$\Ubuntu-20.04\home\nesx\rails\dahora\docker" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\nesx\rails\dahora" />
       <recent name="\\wsl$\Ubuntu-20.04\home\nesx\rails\dahora\config" />
       <recent name="\\wsl$\Ubuntu-20.04\home\nesx\rails\dahora\toolbox" />
     </key>
@@ -71,7 +58,13 @@
       <workItem from="1659104426622" duration="1669000" />
       <workItem from="1660165598754" duration="4586000" />
       <workItem from="1660251205246" duration="11439000" />
-      <workItem from="1660332818202" duration="1189000" />
+      <workItem from="1660332818202" duration="7719000" />
+      <workItem from="1660343107529" duration="345000" />
+      <workItem from="1660346422130" duration="190000" />
+      <workItem from="1660388058658" duration="2682000" />
+      <workItem from="1660416354861" duration="720000" />
+      <workItem from="1660422180890" duration="8254000" />
+      <workItem from="1660439603668" duration="982000" />
     </task>
     <servers />
   </component>

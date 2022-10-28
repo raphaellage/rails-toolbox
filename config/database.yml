@@ -4,19 +4,20 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: <%= ENV["DB_USERNAME"] %>
   password: <%= ENV["DB_PASSWORD"] %>
-  host: <%= ENV["DB_HOST"] %>
+  host: db
   port: <%= ENV["DB_PORT"] %>
+  socket: <%= ENV["DB_SOCKET"] %>
 
 development:
   <<: *default
-  database: <%= ENV["DB_DATABASE"] %>
+  database: <%= ENV["DB_DATABASE_DEV"] %>
 
 test:
   <<: *default
-  database: <%= ENV["DB_DATABASE"] %>
+  database: <%= ENV["DB_DATABASE_TEST"] %>
 
 production:
   <<: *default
-  database: dahora_production
-  username: dahora
-  password: <%= ENV["DB_DATABASE"] %>
+  database: rails_production
+  username: rails
+  password: <%= ENV["DB_DATABASE_PROD"] %>
