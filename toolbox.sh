@@ -5,7 +5,7 @@ build_toolbox () {
 
 create_project () {
   docker run -it -v $PROJECT_FOLDER/:/opt/app toolbox rails new --skip-bundle $PROJECT_NAME --api -d $DB_HOST
-  sudo chown -R nesx:nesx $PROJECT/
+  sudo chown -R $MACHINE_USER:$MACHINE_GROUP $PROJECT/
 }
 
 prepare_project () {
