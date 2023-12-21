@@ -1,3 +1,4 @@
+#!/bin/bash
 
 build_toolbox () {
   docker build -t toolbox --build-arg RUBY_VERSION --build-arg RAILS_VERSION .
